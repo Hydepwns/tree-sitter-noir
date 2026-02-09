@@ -4,7 +4,7 @@
   "description": "Tree-sitter grammar for the Noir zero-knowledge language",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hydepwns/zoir.git"
+    "url": "https://github.com/Hydepwns/tree-sitter-noir.git"
   },
   "license": "MIT",
   "main": "bindings/node",
