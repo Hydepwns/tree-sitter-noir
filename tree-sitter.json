@@ -1,0 +1,32 @@
+{
+  "grammars": [
+    {
+      "name": "noir",
+      "camelcase": "Noir",
+      "scope": "source.noir",
+      "path": ".",
+      "file-types": [
+        "nr"
+      ],
+      "highlights": "queries/highlights.scm",
+      "injections": "queries/injections.scm",
+      "locals": "queries/locals.scm"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.1",
+    "license": "MIT",
+    "description": "Tree-sitter grammar for the Noir zero-knowledge language",
+    "links": {
+      "repository": "https://github.com/Hydepwns/zoir.git"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
