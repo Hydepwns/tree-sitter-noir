@@ -3020,6 +3020,16 @@
     "type": "function_definition",
     "named": true,
     "fields": {
+      "body": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "block",
+            "named": true
+          }
+        ]
+      },
       "name": {
         "multiple": false,
         "required": true,
@@ -3091,10 +3101,6 @@
       "types": [
         {
           "type": "attribute",
-          "named": true
-        },
-        {
-          "type": "block",
           "named": true
         },
         {

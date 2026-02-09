@@ -81,7 +81,7 @@ module.exports = grammar({
         $.parameters,
         optional(seq("->", field("return_type", $._type))),
         optional($.where_clause),
-        $.block,
+        field("body", $.block),
       ),
 
     visibility_modifier: ($) => seq("pub", optional(seq("(", $.visibility_restriction, ")"))),
